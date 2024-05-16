@@ -49,8 +49,3 @@ class Campaña():
                 tipo = type(anuncio).__name__
                 cont[tipo] += 1
         return f"Nombre de la campaña: {self.nombre}\nAnuncios: {cont['Video']} Video, {cont['Display']} Display, {cont['Social']} Social"
-
-    
-
-
-
